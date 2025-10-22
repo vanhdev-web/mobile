@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dang_ky_mh">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#4FC1B2"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/heThongThongTin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hệ thống thông tin"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/tinHocDaiCuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tin học đại cương"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/coSoDuLieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cơ sở dữ liệu"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/lapTrinhDiDong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Lập trình di động"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/anhVan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Anh văn"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Anh văn" />
+
+    <Button
+        android:id="@+id/btDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:height="150dp"
+        android:backgroundTint="@color/black"
+        android:isScrollContainer="true"
+        android:nestedScrollingEnabled="true"
+        android:overScrollMode="always"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbars="horizontal"
+        android:text="Danh sách môn đăng ký"
+        android:textColor="#8C8888"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:verticalScrollbarPosition="defaultPosition" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tình Trạng Đăng ký"
+        android:textColor="#D70000"
+        android:textColorLink="#DB1000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+    <RadioGroup
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/rbTamThoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạm Thời"
+            android:textColor="#13BA17"
+            android:textStyle="bold|italic" />
+        <RadioButton
+            android:id="@+id/rbChinhThuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chính thức"
+            android:textColor="#EF0909"
+            android:textStyle="bold|italic" />
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/btXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác Nhận" />
+
+</LinearLayout>
